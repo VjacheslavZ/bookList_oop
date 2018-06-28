@@ -1,0 +1,45 @@
+li {
+  list-style: none;
+}
+#myApp {
+  padding: 5px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #000;
+  background: lightgray;
+}
+
+.to_do_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding: 50px;
+}
+
+.todo-item + .todo-item {
+  margin-top: 5px;
+}
+.title {
+  width: 200px;
+  display: inline-table;
+}
+.textfield {
+  display: none;
+}
+
+.todo-item.completed {
+  opacity: 0.2;
+}
+
+.todo-item.editing {
+  .textfield {
+    display: inline-block;
+  }
+  .title {
+    display: none;
+  }
+}

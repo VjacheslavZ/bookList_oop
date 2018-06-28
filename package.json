@@ -1,0 +1,35 @@
+{
+  "name": "JS-TM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VjacheslavZ/JS-TM.git"
+  },
+  "keywords": [],
+  "author": "Vjacheslav Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VjacheslavZ/JS-TM/issues"
+  },
+  "homepage": "https://github.com/VjacheslavZ/JS-TM#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
+    "path": "^0.12.7",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
